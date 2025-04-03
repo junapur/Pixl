@@ -1,0 +1,32 @@
+[project]
+name = "pixl"
+version = "0.1.0"
+description = "A Discord bot for image manipulation"
+readme = "README.md"
+requires-python = "~=3.13.0"
+authors = [{ name = "June C" }]
+dependencies = []
+
+[project.scripts]
+pixl = "pixl:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pyright]
+pythonVersion = "3.13"
+typeCheckingMode = "strict"
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I", "ASYNC"]
+ignore = ["E111", "E114", "E117", "E501"] # https://docs.astral.sh/ruff/formatter/#conflicting-lint-rules
+
+[dependency-groups]
+dev = [
+    "pyright>=1.1.398",
+    "ruff>=0.11.2",
+]
