@@ -1,8 +1,8 @@
 # The bot's token
 token: "1234567890"
 
-# The command prefix for text commands (e.g., !ban user)
-prefix: "!"
+# The command prefix for text commands (e.g., +ban user)
+prefix: "+"
 
 # Whether the bot can be mentioned to trigger commands (e.g., @bot ban user)
 when_mentioned: true
