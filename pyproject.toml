@@ -8,7 +8,7 @@ authors = [{ name = "June C" }]
 dependencies = [
     "pydantic~=2.11",
     "pydantic-extra-types~=2.10",
-    "pydantic-settings~=2.8",
+    "pydantic-settings[yaml]~=2.8",
 ]
 
 [project.scripts]
