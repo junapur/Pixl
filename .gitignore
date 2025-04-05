@@ -174,4 +174,4 @@ cython_debug/
 .pypirc
 
 # Bot config file
-.config.yaml
+config.yaml
