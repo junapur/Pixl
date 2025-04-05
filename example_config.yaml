@@ -1,0 +1,21 @@
+# The bot's token
+token: "1234567890"
+
+# The command prefix for text commands (e.g., !ban user)
+prefix: "!"
+
+# Whether the bot can be mentioned to trigger commands (e.g., @bot ban user)
+when_mentioned: true
+
+# Embed colors for different types of messages
+embed_colors:
+  main: "#3699FB"
+  warn: "#FBBD36"
+  error: "#FB3640"
+
+# List of error messages to choose from when an error occurs
+error_messages:
+  - "An error occurred."
+  - "Oops! Something went wrong."
+  - "This is awkward..."
+  - "Erm..."
