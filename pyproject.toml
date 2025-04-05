@@ -5,7 +5,9 @@ description = "A Discord bot for image manipulation"
 readme = "README.md"
 requires-python = "~=3.13.0"
 authors = [{ name = "June C" }]
-dependencies = []
+dependencies = [
+    "pydantic~=2.11",
+]
 
 [project.scripts]
 pixl = "pixl:main"
